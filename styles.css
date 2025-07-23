@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+}
+.resume-container {
+  display: flex;
+  flex-direction: row;
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: auto;
+  padding: 0.5cm;
+  background-color: whitesmoke;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0px 30px 0 30px;
+}
+.column1 {
+  background-color: blue;
+  color: white;
+  width: 600px;
+  padding: 20px;
+}
+p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+li {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.core-list {
+  padding-left: 25px;
+}
+.skill-list {
+  padding-left: 25px;
+}
+.column2 {
+  padding-left: 35px;
+  background-color: white;
+}
+.name {
+  font-size: 40px;
+  color: rgb(18, 18, 139);
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.line {
+  width: 20%;
+  height: 2px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+.position {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  color: blue;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.summary {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-left: 0px;
+  color: blue;
+  margin-top: 30px;
+}
+.summary-list {
+  padding-left: 19px;
+}
+.experience {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-left: 0px;
+  color: blue;
+  margin-top: 30px;
+}
+.experience-list {
+  padding-left: 19px;
+}
+.style-experience {
+  margin-left: 0px;
+}
